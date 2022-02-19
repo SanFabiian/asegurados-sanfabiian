@@ -1,0 +1,47 @@
+h1 {
+  color: #36aadd;
+  font-size: 36px;
+  font-weight: 600;
+}
+h6 {
+  color: #999999;
+  font-size: 16px;
+  font-weight: 600;
+}
+main {
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  app-quote-form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 40px;
+    position: initial;
+  }
+  main::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 124px;
+    background: #36aadd;
+    left: 0;
+    right: 0;
+    height: 53px;
+    width: 100vw;
+    z-index: -1;
+  }
+  app-quote-form {
+    position: initial;
+    transform: initial;
+  }
+}

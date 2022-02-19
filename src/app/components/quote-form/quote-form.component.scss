@@ -1,0 +1,49 @@
+input,
+select {
+  width: 100%;
+  border: none;
+  height: 40px;
+  padding: 5px 10px;
+}
+input,
+select,
+input::placeholder {
+  color: grey;
+}
+.quote-form {
+  position: relative;
+  max-width: 370px;
+  background: #e6e6e6;
+  border-top: solid 6px #36aadd;
+  margin: -50px auto 50px auto;
+  padding: 20px;
+}
+.quote-item {
+  padding: 3px;
+}
+.w-70 {
+  width: 70%;
+}
+.w-30 {
+  width: 30%;
+}
+.btn-success {
+  background: #bbd550;
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  box-shadow: 0 4px 0 0px #96a82a;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .quote-form {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .quote-form {
+    height: 100%;
+    border: none;
+  }
+}

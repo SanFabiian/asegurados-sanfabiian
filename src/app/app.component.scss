@@ -1,0 +1,10 @@
+app-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+@media screen and (min-width: 1200px) {
+  app-main {
+    position: relative;
+  }
+}

@@ -1,0 +1,40 @@
+footer {
+  background: #7c7c7c;
+  padding: 20px 0;
+  padding-bottom: 0;
+}
+h5,
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.social-media {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  a {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+  i {
+    font-size: 20px;
+    color: #7c7c7c;
+  }
+}
+li::marker {
+  color: white;
+}
+.copy {
+  padding: 10px;
+  background: black;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}

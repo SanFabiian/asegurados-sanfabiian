@@ -1,0 +1,32 @@
+.banner-caption {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: white;
+  padding: 0px 10px;
+  font-size: 10px;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  .carousel-control-next,
+  .carousel-control-prev {
+    top: initial;
+    left: 20px;
+    width: auto;
+    background: white;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    i {
+      color: black;
+    }
+  }
+  .carousel-control-next {
+    left: 70px;
+  }
+}

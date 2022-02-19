@@ -1,0 +1,44 @@
+<form action="" class="quote-form">
+  <div class="quote-item">
+    <label for="brand" class="d-none d-lg-block">Marca del auto</label>
+    <select id="brand" name="brand" required>
+      <option value="">Marca del auto</option>
+      <option value="">Mazda</option>
+      <option value="">Chevrolet</option>
+    </select>
+  </div>
+  <div class="d-flex">
+    <div class="quote-item w-70">
+      <label for="model" class="d-none d-lg-block">Modelo del auto</label>
+      <select id="model" name="model" required>
+        <option value="">Modelo del auto</option>
+        <option value="">Corsa</option>
+        <option value="">Camaro</option>
+      </select>
+    </div>
+    <div class="quote-item w-30">
+      <label for="year" class="d-none d-lg-block">Año</label>
+      <select id="year" name="year" required>
+        <option value="">Año</option>
+        <option value="">2022</option>
+        <option value="">2021</option>
+        <option value="">2020</option>
+      </select>
+    </div>
+  </div>
+  <div class="quote-item">
+    <label for="email" class="d-none d-lg-block">Email</label>
+    <input type="email" name="email" id="email" placeholder="Email" required />
+  </div>
+  <div class="quote-item">
+    <label for="phone-number" class="d-none d-lg-block">Teléfono celular</label>
+    <input
+      type="tel"
+      name="phone-number"
+      id="phone-number"
+      placeholder="Teléfono celular"
+      required
+    />
+  </div>
+  <button type="submit" class="btn btn-success mt-4">Cotizar ahora</button>
+</form>
